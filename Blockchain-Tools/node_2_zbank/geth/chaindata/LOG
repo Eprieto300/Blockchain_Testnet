@@ -1,0 +1,47 @@
+=============== May 30, 2021 (CDT) ===============
+19:53:40.385199 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:53:40.394027 db@open opening
+19:53:40.395656 version@stat F·[] S·0B[] Sc·[]
+19:53:40.398284 db@janitor F·2 G·0
+19:53:40.398284 db@open done T·4.2568ms
+19:53:40.413020 db@close closing
+19:53:40.413532 db@close done T·512.1µs
+=============== May 30, 2021 (CDT) ===============
+20:03:04.594585 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+20:03:04.595540 version@stat F·[] S·0B[] Sc·[]
+20:03:04.595540 db@open opening
+20:03:04.595540 journal@recovery F·1
+20:03:04.607490 journal@recovery recovering @1
+20:03:04.609528 memdb@flush created L0@2 N·15 S·1KiB "$W\xdf..x\xd1\x1c,v3":"\x8a\x8d,..\xc3S\x84,v4"
+20:03:04.618895 version@stat F·[1] S·1KiB[1KiB] Sc·[0.25]
+20:03:04.629439 db@janitor F·3 G·0
+20:03:04.629439 db@open done T·33.8994ms
+20:03:04.730683 table@compaction range L-1 "a":"b"
+20:03:04.730683 table@compaction L0·1 -> L1·0 S·1KiB Q·21
+20:03:04.736048 table@build created L1@5 N·15 S·1KiB "$W\xdf..x\xd1\x1c,v3":"\x8a\x8d,..\xc3S\x84,v4"
+20:03:04.757943 version@stat F·[0 1] S·1KiB[0B 1KiB] Sc·[0.00 0.00]
+20:03:04.761195 table@compaction committed F~ S~ Ke·0 D·0 T·30.5122ms
+20:03:04.768124 table@compaction range L-1 "o":"p"
+=============== May 30, 2021 (CDT) ===============
+20:04:09.835285 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+20:04:09.835823 version@stat F·[0 1] S·1KiB[0B 1KiB] Sc·[0.00 0.00]
+20:04:09.835823 db@open opening
+20:04:09.835823 journal@recovery F·1
+20:04:09.848181 journal@recovery recovering @3
+20:04:09.860297 memdb@flush created L0@6 N·10 S·725B "Dat..ion,v17":"unc..own,v23"
+20:04:09.871229 version@stat F·[1 1] S·1KiB[725B 1KiB] Sc·[0.25 0.00]
+20:04:09.883199 db@janitor F·5 G·1
+20:04:09.883199 db@janitor removing table-2
+20:04:09.883199 db@open done T·47.3755ms
+20:10:53.053660 db@close closing
+20:10:53.053660 db@close done T·0s
+=============== May 30, 2021 (CDT) ===============
+20:19:37.281243 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+20:19:37.281769 version@stat F·[1 1] S·1KiB[725B 1KiB] Sc·[0.25 0.00]
+20:19:37.281769 db@open opening
+20:19:37.282285 journal@recovery F·1
+20:19:37.290843 journal@recovery recovering @7
+20:19:37.297006 memdb@flush created L0@9 N·4 S·301B "Sna..tor,v29":"unc..own,v28"
+20:19:37.304842 version@stat F·[2 1] S·2KiB[1KiB 1KiB] Sc·[0.50 0.00]
+20:19:37.314914 db@janitor F·5 G·0
+20:19:37.314914 db@open done T·33.1451ms
